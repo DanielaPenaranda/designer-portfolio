@@ -7,6 +7,7 @@ import {
 
 import { Project, Inquiry } from './types';
 import { PROJECTS_DATA } from './data';
+import headshot from '../assets/headshot.jpg';
 import ProjectDetailsDrawer from './components/ProjectDetailsDrawer';
 import ProjectEstimator from './components/ProjectEstimator';
 import CapabilitiesPlayground from './components/CapabilitiesPlayground';
@@ -228,7 +229,7 @@ export default function App() {
           <div className="max-w-[1200px] mx-auto w-full text-left flex flex-col items-start gap-6">
             <span className="text-xs uppercase font-extrabold text-zinc-500 tracking-[0.25em] flex items-center gap-2">
               <span className="w-2 h-2 bg-primary inline-block"></span>
-              Based in London / Available for Hire
+              Based in Bordeaux / Available for Hire
             </span>
             
             <h1 className="font-display text-4xl sm:text-6xl md:text-8xl font-black max-w-[1000px] text-zinc-900 tracking-tighter leading-[0.9] mt-3">
@@ -236,7 +237,7 @@ export default function App() {
             </h1>
             
             <p className="text-lg md:text-xl max-w-[650px] text-zinc-500 mt-6 leading-relaxed font-sans">
-              I am a Senior Product Designer specializing in building accessible, high-performance digital ecosystems that bridge the gap between human intuition and technical complexity.
+              I am a Staff Product Designer specializing in building accessible, high-performance digital ecosystems that bridge the gap between human intuition and technical complexity.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mt-8 w-full sm:w-auto">
@@ -394,7 +395,7 @@ export default function App() {
               <div className="lg:col-span-5 relative">
                 <div className="aspect-[3/4] bg-zinc-50 border border-zinc-200 overflow-hidden relative group">
                   <img
-                    src="https://lh3.googleusercontent.com/aida/AP1WRLtf16zCuWJScJEv9NVOdrwMPHxxAr-wZr8U8z_kncXik7slE50ugW2UOvWI_0x5SVBLdvBxc9z_4ncy3p3d4tpjyCuN3FPjmY86ocZlp0Zwp4chPTDGDEAZD6LQI6vo_9cF-etw0aQN1ZQycMCis3mbGg0PfMsQbT8eMDwEBwhcwYUzC7boB7FI1Vd07CyVlmu1tb9_DpAOI0kxlDhiZYJULlXQcd-kwsLom2nVg1rm9Hjzle9vU2IOjooT"
+                    src={headshot}
                     alt="Daniela Penaranda"
                     className="w-full h-full object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
                   />
@@ -426,12 +427,6 @@ export default function App() {
 
                 {/* Micro-interactive parameters for active work credentials */}
                 <div className="space-y-3 pt-4 border-t border-zinc-100 max-w-[500px]">
-                  <div className="flex items-center gap-3 py-1 hover:translate-x-1 transition-transform">
-                    <span className="p-1 bg-[#D9FF99] text-[#222222] inline-block">
-                      <Check size={14} className="font-extrabold" />
-                    </span>
-                    <span className="text-xs uppercase tracking-widest font-bold text-zinc-800">EX-LEAD DESIGNER AT GOOGLE LONDON</span>
-                  </div>
                   <div className="flex items-center gap-3 py-1 hover:translate-x-1 transition-transform">
                     <span className="p-1 bg-[#D9FF99] text-[#222222] inline-block">
                       <Check size={14} className="font-extrabold" />

@@ -9,7 +9,7 @@ interface ResumeModalProps {
 export default function ResumeModal({ onClose }: ResumeModalProps) {
   // Simple states so the reviewer can interactively edit the fields and print
   const [name, setName] = useState('Daniela Penaranda');
-  const [title, setTitle] = useState('Senior Product Designer');
+  const [title, setTitle] = useState('Staff Product Designer');
   const [about, setAbout] = useState(
     'I build high-performance digital ecosystems bridging raw technical depth with pristine user intuition. Specialized in SaaS, interactive dashboards, and design systems.'
   );
