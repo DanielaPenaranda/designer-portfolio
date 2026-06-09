@@ -1,0 +1,6 @@
+{
+  "name": "Designer Portfolio",
+  "description": "A high-fidelity minimalist product design portfolio with rich animations, dark aesthetics, and interactive project drawers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
